@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.teacher.Activities.TeacherViewProfileScroll">
+    <item
+        android:id="@+id/updatepro"
+        android:orderInCategory="100"
+        android:title="Update Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/updatepass"
+        android:orderInCategory="100"
+        android:title="Update Password"
+        app:showAsAction="never">
+
+    </item>
+</menu>

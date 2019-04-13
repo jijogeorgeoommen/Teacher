@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Teacher_signin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="Teacher's Login"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registeration No.:"
+                android:textSize="25dp"
+                android:textColor="#000"
+
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plainbutton"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:id="@+id/teacherregno"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textSize="25dp"
+                android:textColor="#000"
+
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plainbutton"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:id="@+id/teacherpass"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitlogin"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:text="Sign-in"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/buttondark"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+</LinearLayout>
+</LinearLayout>
